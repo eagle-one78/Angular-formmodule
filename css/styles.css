@@ -1,0 +1,36 @@
+/* 
+    Created on : 2015-okt-30, 20:17:45
+    Author     : Sam Almen <sam.almen@gmail.com>
+    license: This code's main porpose only for test not for commercial use, make 
+    agreement with the author if you intend to use it in a commercial porpose
+*/
+
+#angular-form label {
+    width: 50%;
+}
+
+#angular-form label bold, #angular-form label input {
+    float: left;
+}
+
+#angular-form label input {
+    width: 50%;
+}
+
+input.ng-invalid.ng-dirty {
+    border: 1px solid red;
+}
+
+*:focus {
+    outline: 0;
+}
+
+.error-div {
+    text-align: -webkit-center;
+    float: left;
+}
+
+.error-message {
+    color: red;
+}
+

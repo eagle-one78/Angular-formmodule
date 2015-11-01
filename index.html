@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="FormModule">
+    <head>
+        <title>Angular Fromulär modul</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/styles.css" />
+        <script type="text/javascript" src="js/libs/angular.js"></script>
+        <script type="text/javascript" src="js/libs/angular-ui-router.js"></script>
+        <script type="text/javascript" src="js/libs/angular-resource.js"></script>
+    </head>
+    <body>
+        <!--The minimum markup for the Registration Form module to work is:
+            <element1 ng-controller="FormController">
+                <element2 registration-form></element2>
+            </element1>
+        --> 
+        <div ng-controller="FormController">
+            <div registration-form></div>
+            <div>
+                <h3 id="result-title">{{translation.REGISTRATION_RESULT}}</h3>
+                <p id="name-result"><strong>{{translation.NAME}}:</strong>&nbsp;{{submitname}}</p>
+                <p id="email-result"><strong>{{translation.EMAIL}}:</strong>&nbsp;{{submitemail}}</p>
+                <p id="iban-result"><strong>{{translation.SWEDISH_IBAN}}:</strong>&nbsp;{{submitiban}}</p>
+            </div>
+        </div>
+        <!--Include the formManager for the Registration Form module to work -->
+        <script type="text/javascript" src="js/app/formManager.js" ></script>
+    </body>
+</html>

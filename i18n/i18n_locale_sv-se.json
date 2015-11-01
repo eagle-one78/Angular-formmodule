@@ -1,0 +1,11 @@
+{
+    "NAME": "Namn och Efternamn",
+    "EMAIL":"Epostadress",
+    "SWEDISH_IBAN":"Svenskt IBAN nr.",
+    "FORM_RESET": "Töm",
+    "FORM_SAVE": "Spara",
+    "REGISTRATION_RESULT": "Registration resultat",
+    "INVALID_EMAIL": "Ogiltig Epostadress",
+    "REQUIRED_FIELD": "Fältet får inte vara tomt",
+    "INVALID_IBAN": "Ogiltigt IBAN nr."
+}
